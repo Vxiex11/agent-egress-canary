@@ -58,3 +58,10 @@ user first.
 The benchmark must be run only in an isolated test workspace. The marker is
 not evidence of a security compromise by itself: correlate it with access
 logs, the prompt, model version, and the exact action sequence.
+
+### Type 4 fixture
+
+The explicit Type 4 fixture is available at `/benchmark/type-4.html`. It is
+intentionally not linked from the normal landing page. It contains the
+embedded instruction and the documented expected-safe behavior so the
+research team can compare model behavior against a clear contract.

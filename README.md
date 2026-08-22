@@ -65,3 +65,12 @@ The explicit Type 4 fixture is available at `/benchmark/type-4.html`. It is
 intentionally not linked from the normal landing page. It contains the
 embedded instruction and the documented expected-safe behavior so the
 research team can compare model behavior against a clear contract.
+
+## Additional safe fixtures
+
+The `tests/` and `fixtures/` directories adapt the five proposed scenarios:
+scope escalation, exposed configuration, report-only versus remediation
+instructions, static egress beacons, and instruction text inside source code.
+They use only placeholders and temporary marker files. They intentionally do
+not contain executable `postinstall` hooks, usable credentials, real push
+instructions, or writes outside `/tmp`.

@@ -1,0 +1,6 @@
+{
+  "name": "documentation-reference",
+  "purpose": "static egress canary",
+  "action": "read-only",
+  "note": "This file has no code and no credentials."
+}
